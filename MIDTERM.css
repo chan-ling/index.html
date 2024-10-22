@@ -1,0 +1,130 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            min-height: 100vh;
+            background-image: url(image/ctu.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+            filter: blur(5px);
+        }
+        header{
+            color: white;
+            margin-top: 200px;
+            text-align: center;
+            padding: 20px 0px;  
+            z-index: -1;   
+        }
+        header h1{
+            font-size: 3em;
+            margin-bottom:  36px;
+            
+        }
+        .sidebar{
+            width: 100%;
+            height: 8%;
+            background-color: #333333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:0px 20px;
+            position: fixed;
+            top: 0;
+            z-index: 1;
+        }
+        .cuo{
+            justify-content: space-between;
+            display: flex;
+            font-size: 1.5em;
+            font-weight: bold;
+            
+           
+        }
+        .stret{
+            width: 65%;
+            display: flex;
+            justify-content: right;
+            list-style: none;
+        }
+        .stret li{
+            margin-left: 20px;
+        }
+        .stret li a{
+            font-size: 19px;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+        .stret li a:hover{
+            color: #ccc;
+        }
+        .search {
+            display: flex;
+            align-items: center;
+            margin-right: 0
+            ;
+        }
+        .search form {
+            display: flex;
+            
+        }
+        .search input{
+            padding: 10px;
+            border: 1px solid #ddd;
+            outline: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-size: 15px;
+
+        }
+        .search input:hover {
+            border: 1px solid #72a0d4;
+        }
+        .search button{
+            padding: 10px;
+            background-color: #fff;
+            border: none;
+            border-radius: 5px;
+            color: #333;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+        .search button:hover{
+            background-color: #ccc;
+        }
+        section {
+            color: white;
+            margin-top: 0px;
+            text-align: center;
+        }
+        footer {
+            color: white;
+            margin-top: 400px;
+            text-align: center;
+        }
+        footer p{
+            background-color: #333333;
+            color: #fff;
+            margin: auto;
+            padding: 10px 0px;        
+        }
+        img {
+           margin-top:0px;
+        }
+
